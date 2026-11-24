@@ -1,0 +1,34 @@
+name: Fehler melden
+description: Beschreibe einen Fehler, den wir nachstellen können.
+body:
+  - type: input
+    id: version
+    attributes:
+      label: SimpleLexEditor-Version
+      description: Die Versionsnummer steht in den Einstellungen.
+      placeholder: z. B. 1.6.0
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Wo tritt der Fehler auf?
+      options:
+        - Installierte Windows-App
+        - Portable Windows-App
+        - Desktop-App aus dem Quellcode
+        - Browser-Demo
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Schritte zum Nachstellen
+      description: Beschreibe, was passiert ist und welches Verhalten du erwartet hast.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Weitere Details
+      description: Windows-Version, Browser oder LaTeX-Compiler helfen bei der Einordnung. Du kannst ein kleines Beispiel, einen Protokollauszug oder einen Screenshot anhängen. Entferne vorher persönliche Daten und lokale Pfade.

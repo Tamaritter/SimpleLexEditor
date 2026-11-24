@@ -1,0 +1,10 @@
+{
+  "name": "TeX Live (TinyTeX-2, scheme-full)",
+  "revision": "2026-11-17",
+  "url": "https://github.com/rstudio/tinytex-releases/releases/download/daily/TinyTeX-2-windows.exe",
+  "assetId": 757484758,
+  "size": 1709242563,
+  "sha256": "bc87b62b6875d6dbfd39026e5adabe47b54fe97d74b3550d00e6cd156e0c22eb",
+  "source": "https://github.com/rstudio/tinytex-releases",
+  "license": "https://tug.org/texlive/copying.html"
+}

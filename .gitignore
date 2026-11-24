@@ -1,0 +1,32 @@
+# Abhängigkeiten und Build-Ausgaben
+node_modules/
+/dist/
+/public/pdfjs/
+/public/mathlive/
+/src-tauri/target/
+/src-tauri/gen/schemas/
+*.tsbuildinfo
+
+# Lokale Werkzeuge, Tests und Windows-Pakete
+/.tools/
+/test-results/
+/playwright-report/
+/release/
+/src-tauri/resources/tex-runtime.exe
+
+# Lokale Konfiguration und Signierdateien
+.env
+.env.*
+!.env.example
+*.key
+*.p12
+*.pfx
+Thumbs.db
+.DS_Store
+
+# LaTeX-Ausgaben und lokale Roxena-Projektdaten
+*.log
+*.aux
+*.out
+*.synctex.gz
+.roxena/

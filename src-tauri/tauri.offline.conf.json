@@ -1,0 +1,11 @@
+{
+  "build": {
+    "features": ["bundled-tex"]
+  },
+  "bundle": {
+    "active": true,
+    "resources": {
+      "resources/tex-runtime.exe": "tex-runtime.exe"
+    }
+  }
+}
